@@ -1,0 +1,13 @@
+springdoc:
+  api-docs:
+    path: /v1/docs
+  swagger-ui:
+    enabled: true
+    path: /swagger
+    operations-sorter: method
+    tags-sorter: alpha
+  default-consumes-media-type: application/json
+  paths-to-exclude: /
+  #packages-to-exclude: com.datajpatest.theara.security
+  #paths-to-match: /v1/**
+
